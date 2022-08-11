@@ -81,7 +81,7 @@ public class Main {
             for (int i = 0; i <= arr.length - 1; i++) {
                 if (arr[i] % 2 != 0) {
                     arr[i] = arr[i] + 1;
-                    System.out.println(" ");
+                    System.out.println();
                     System.out.print(arr[i]);
                 }
 
