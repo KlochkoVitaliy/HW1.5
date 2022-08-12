@@ -26,11 +26,7 @@ public class Main {
 
         }
 
-        double outArr1 = arr1[0];
-        double outArr1One = arr1[1];
-        double outArr1Two = arr1[2];
-
-        System.out.println();
+                System.out.println();
         for (int i = 0; i < arr1.length; i++) {
                if (i > 0) {
                 System.out.print(", ");
