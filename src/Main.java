@@ -50,7 +50,7 @@ public class Main {
 
             System.out.println();
         for (int i = arr.length -1; i >= 0 ; i--) {
-             if (i <=1) {
+             if (i < arr.length -1) {
                 System.out.print(", ");
             }
                 System.out.print(arr[i]);
@@ -58,7 +58,7 @@ public class Main {
 
         System.out.println();
         for (int i = arr1.length -1; i >= 0 ; i--) {
-            if (i <=1) {
+            if (i < arr1.length -1) {
                 System.out.print(", ");
             }
             System.out.print(arr1[i]);
@@ -66,7 +66,7 @@ public class Main {
 
         System.out.println();
         for (int i = arr2.length -1; i >= 0 ; i--) {
-            if (i <=1) {
+            if (i <arr2.length-1) {
                 System.out.print(", ");
             }
             System.out.print(arr2[i]);
